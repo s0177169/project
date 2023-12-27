@@ -1,0 +1,36 @@
+header div p {
+    margin-bottom: 0;
+}
+
+.logo {
+    float: left; 
+    margin: 10px; 
+    width: 60px; 
+    height: 60px;
+}
+
+.sitename {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+
+div ol li a {
+    text-decoration: none;
+}
+
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+    width: 100%;
+}
+
+.text-left {
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.loose-content {
+    width: 50%;
+    margin: auto;
+}

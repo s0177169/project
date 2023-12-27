@@ -1,0 +1,16 @@
+.main {
+    margin-top: 3%;
+    width: 30% !important;
+}
+
+.navbar-title {
+    font-size: 40px !important;
+}
+
+h5 {
+    margin: 10px 0 10px 0 !important;
+}
+
+.hidden {
+    display: none;
+}

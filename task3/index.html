@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Задание 3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+	  <nav>
+		<div class="main-aside-wrapper">
+		  <main>
+			<a class="navbarlinks" href='#links'>Список гиперссылок</a>
+			<a class="navbarlinks" href='#table'>Таблица</a>
+			<a class="navbarlinks" href='#form'>Форма</a>
+		  </main>
+		  <aside>
+			<img class="logo" src="../imgs/sitelogo.png" alt="sitelogo123" />
+			<h1 class="sitename"> Задание3</h1>
+		  </aside>
+		</div>
+	  </nav>
+    </header>
+
+	<div class="item1">
+		<ol class="links" id="links">
+			<li>
+			  <a href="http://kubsu.ru/">КубГУ</a>
+		  </li>
+		  <li>
+			  <a href="https://kubsu.ru/">КубГУ (https)</a>
+		  </li>
+		  <li>
+			  <a href="https://w7.pngwing.com/pngs/745/306/png-transparent-gallery-image-images-photo-picture-pictures-set-app-incredibles-icon.png"><img src="../imgs/flower.jpg" width="112" height="84" id = "imglnk" alt="imglnk"></a>
+		  </li>
+		  <li>
+			  <a href="tmp.html">Вторая страница</a>
+		  </li>
+		  <li>
+			  <a href="/">Главная страница</a>
+		  </li>
+		  <li>
+			  <a href="#field-fio">Перейти к форме</a>
+		  </li>
+		  <li>
+			  <a href="https://translate.yandex.ru/?source_lang=en&target_lang=ru&text=webbb">Ссылка с параметрами</a>
+		  </li>
+		  <li>
+			  <a href="https://translate.yandex.ru/?id=link">Ссылка с параметром id в URL</a>
+		  </li>
+		  <li>
+			  <a href="tmp.html">Относительная в текущем каталоге</a>
+		  </li>
+		  <li>
+			  <a href="about/main.html">Относительная в каталоге about</a>
+		  </li>
+		  <li>
+			  <a href="about/main.html">Относительная в каталоге выше текущего</a>
+		  </li>
+		  <li>
+			  <a href="about/another/main.html">Относительная в каталоге двумя ур выше</a>
+		  </li>
+		  <li>
+			  <span>The HyperText Markup Language or HTML is the standard markup language  in a </span>
+			  <a href="#field-fio">language</a>
+			  <span>for documents designed to be displayed.</span>
+		  </li>
+		  <li>
+			  <a href="https://en.wikipedia.org/wiki/HTML#Markup">Cсылка на фрагмент</a>
+		  </li>
+		  <li>
+			  <img src="../imgs/flower.jpg" width="60%" height="10%" usemap="#forms" alt="flower">
+			  <map name="forms">
+				  <area shape="rect" coords="0,0,200,200" href="https://github.com/sindeyz11/sindeyz11.github.io" alt="1">
+				  <area shape="circle" coords="300,200,50" href="https://ru.wikipedia.org/" alt="1">
+			  </map>
+		  </li>
+		  <li>
+			  <a href="">Пустой href</a>
+		  </li>
+		  <li>
+			  <a>Без href</a>
+		  </li>
+		  <li>
+			  <a href="https://google.com/" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a>
+		  </li>
+		  <li>
+			  <!--noindex-->
+				  <a href="https://google.com/">Запрещенная для индексации поисковиками ссылка</a>
+			  <!--/noindex-->
+		  </li>
+		  <li>
+			  Нумерованный список ссылок:
+			  <ol>
+				  <li>
+					  <a href="https://google.com/" title="odin">Google</a>
+				  </li>
+				  <li>
+					  <a href="https://yandex.ru/" title="dva">Yandex</a>
+				  </li>
+			  </ol>
+		  </li>
+		  <li>
+			  <a href="ftp://user:pass@server.ru:8888/about/about.html;type=i">Ссылка на файл на сервере FTP с авторизацией</a>
+		  </li>
+  
+	  </ol>
+	</div>
+    
+	<div class="item2">
+		<table class="center" id="table">
+			<tr>
+			  <th>col 1</th>
+			  <th>col 2</th>
+			  <th>col 3</th>
+			  <th>col 4</th>
+			</tr>
+			<tr>
+			  <td colspan="4">Ячейка 1</td>
+			</tr>
+			<tr>
+			  <td>Ячейка 2.1</td>
+			  <td>Ячейка 2.2</td>
+			  <td>Ячейка 2.3</td>
+			  <td>Ячейка 2.4</td>
+			</tr>
+			<tr>
+				<td>Ячейка 3.1</td>
+				<td>Ячейка 3.2</td>
+				<td>Ячейка 3.3</td>
+				<td>Ячейка 3.4</td>
+			</tr>
+			  <tr>
+				<td>Ячейка 4.1</td>
+				<td>Ячейка 4.2</td>
+				<td>Ячейка 4.3</td>
+				<td>Ячейка 4.4</td>
+			</tr>
+			<tr>
+				<td colspan="4">Ячейка 5</td>
+			</tr>
+			<tr>
+				<td>Ячейка 6.1</td>
+				<td>Ячейка 6.2</td>
+				<td>Ячейка 6.3</td>
+				<td>Ячейка 6.4</td>
+			</tr>
+			<tr>
+				<td>Ячейка 7.1</td>
+				<td>Ячейка 7.2</td>
+				<td>Ячейка 7.3</td>
+				<td>Ячейка 7.4</td>
+			</tr>
+			<tr>
+				<td colspan="4">Ячейка 8</td>
+			</tr>
+		  </table>
+	</div>
+	
+	<div class="item3">
+		<form action="doit" id="form" method="POST">
+
+			<label for="field-fio">
+			  Поле ФИО:<br />
+			  <input required id="field-fio" name="field-fio" placeholder="Введите ваше ФИО" />
+			</label><br />
+	  
+			<label for="field-tel">
+			  Текстовое поле tel:<br /> </label>
+			  <input required type="tel" id="field-tel" name="field-tel" placeholder="Введите телефон"/>
+			<br />
+	  
+			<label>
+			  Текстовое поле email:<br />
+			  <input required name="field-email" type="email" placeholder="Введите вашу почту" />
+			</label><br />
+	  
+			<label>
+			  Дата рождения:<br />
+			  <input required name="field-date" value="2023-10-09" type="date" />
+			</label><br />
+	  
+			Ваш пол:<br />
+			<label><input required type="radio" name="radio-group-1" value="val1" /> Мужской</label>
+			<label><input type="radio" name="radio-group-1" value="val2" /> Женский</label><br />
+	  
+			  <label>Любимый язык программирования:<br>
+				<select required class="sizedselect" name="field-mul" multiple="multiple">
+				  <option value="1">Pascal</option>
+				  <option value="2">C</option>
+				  <option value="3">C++</option>
+				  <option value="4">Javascript</option>
+				  <option value="5">PHP</option>
+				  <option selected value="6">Python</option>
+				  <option value="7">Java</option>
+				  <option value="8">Haskel</option>
+				  <option value="9">Clojure</option>
+				  <option value="10">Prolog</option>
+				  <option value="11">Scala</option>
+				</select>
+			  </label><br>
+	  
+			<label>
+			  Биография:<br />
+			  <textarea name="txtarea" class="noresize" rows="7" cols="40" placeholder="Ваша биография"></textarea>
+			</label><br />
+	  
+			
+			<label for="checkboxagree"> <input required type="checkbox" name="check-1" id="checkboxagree" /> С контрактом ознакомлен </label> <br />
+			<br />
+	  
+			<input type="submit" value="Сохранить" />
+		  </form>
+	</div>
+    
+    <footer>
+      <div>
+        <h1 class="footerName"> (c) Левицкий Михаил </h1>
+      </div>
+    </footer>
+
+  </body>
+
+</html>

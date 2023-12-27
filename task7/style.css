@@ -1,0 +1,52 @@
+.logo {
+    float: left; 
+    margin: 10px; 
+    width: 60px; 
+    height: 60px;
+}
+
+.sitename {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+header div p {
+    margin-bottom: 0;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.body-container {
+    display: flex;
+    justify-content: center;
+}
+
+#galery{
+    width: 90%;
+    margin: 3% 0 3% 0;
+}
+
+.slick-slide img{
+    margin: auto;
+}
+
+.slick-prev:before,
+.slick-next:before{
+    color: black;
+    font-size: 28px;
+}
+
+.slick-dots{
+    bottom: -50px;
+}
+
+.slick-dots li{
+    margin: 0 5px;
+}
+
+.slick-dots li button:before{
+    font-size: 10px;
+}
